@@ -2,8 +2,7 @@
 body{
 	width: 100% auto;
 	margin: auto;
-	background-image: url(img/1.jpg);
-	background-size: cover;
+    background: #d4e3de;
 	font-family: verdana;
 	padding: 50px;
 	font-weight: bolder;
@@ -65,7 +64,10 @@ body{
 	left: 0px;
 }
 .navmenu li:hover .sub1{
-	display: block;
+	display: list-item;
+	top: 40px;
+	z-index: 1;
+	
 }
 .navmenu li:hover .sub2{
 	display: block;
@@ -73,6 +75,7 @@ body{
 video{
 	padding-top: 10px;
 	scroll-behavior: smooth;
+	position: relative;
 }
 .ol li{
 	padding-top: 5px;
@@ -118,6 +121,20 @@ video{
 				-1px 1px 0 #000,
 				1px 1px 0 #000;
 }
+.blog-side{
+	float: right;
+	height: auto;
+	width: 280px;
+	margin-top: 53px;
+	background-color: cornflowerblue;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 3px 3px 0 #000, 
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
+}
 .list h1{
 	text-align: left;
 	padding: 10px;
@@ -149,6 +166,11 @@ video{
 	padding: 15px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+}
+p{
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 .list img{
 	width: 900px; 
